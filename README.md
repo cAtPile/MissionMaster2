@@ -1,2 +1,8 @@
 # MissionMaster2
 基于ROS2的PX4无人机控制
+
+工程的基本框架
+MissionMaster作为任务的状态机主控
+DroneController作为无人机的基本控制器
+TaskBridge其他功能中介（视觉等）
+InteractiveManager交互核心，设置任务流程，使用命令指令任务
